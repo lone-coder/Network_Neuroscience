@@ -1,1 +1,1 @@
-
+This is the workflow for processing diffusion MRI images from children. EDDY from FSL and the connectome generatio from MRtrix3, in particular, are best parallelized on an HPC or the cloud. The order of the scripts is preprocessing, shell combination, processing.
