@@ -1,8 +1,7 @@
 # Vanier Preterm Connectome Analysis Pipeline
 
-> **Study**: Diffuse effects of preterm birth on the white matter connectome of early school-aged children
+> **Study**: Diffuse effects of preterm birth on the white matter connectome of school-aged children
 
-This folder contains the consolidated, cleaned analysis scripts organized by pipeline stage.
 
 ---
 
@@ -86,24 +85,3 @@ Run scripts in the following order:
 
 ---
 
-## Dependencies
-
-### R
-```r
-lme4, lmerTest, dplyr, readr, parallel
-```
-
-### Python
-```python
-numpy, pandas, scipy, matplotlib, seaborn, networkx, bctpy
-```
-
----
-
-## Deprecated Scripts (NOT included)
-
-The following older versions should NOT be used:
-- `Dec_2025 _network_density.py` → Uses Bonferroni instead of Holm
-- `Updated LMM processing.py` → Uses distance-only filtering
-- `updatedPickles_RCC.py` → Uses aggregated percentiles (pseudo-replication)
-- `July_2025_latest.R` → Older LMM implementation
